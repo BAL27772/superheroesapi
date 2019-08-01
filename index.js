@@ -18,7 +18,7 @@ app.get('/heroes/:slug', (request, response) => {
     });
     
     if (matchingHeroes.length) {
-    response.send(matchingHeroes);
+        response.send(matchingHeroes);
     } else {
         response.sendStatus(404);
     }
