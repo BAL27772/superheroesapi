@@ -1,0 +1,19 @@
+{
+  "name": "super_hero_api",
+  "version": "1.0.0",
+  "description": "Student Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+
+  },
+  "author": "Billy A Leiva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
